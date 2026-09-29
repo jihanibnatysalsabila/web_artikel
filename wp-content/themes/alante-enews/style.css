@@ -1,0 +1,394 @@
+/*
+Theme Name: Alante eNews
+Template: alante
+Text Domain: alante-enews
+Version: 1.0.0
+Requires at least: 5.0
+Tested up to: 6.9
+Requires PHP: 7.0
+Description: Alante eNews is a free multi-purpose professional theme ideal for a magazine, business or blog website. The theme has a responsive layout, HD retina ready and comes with a powerful theme options panel with can be used to make awesome changes without touching any code. The theme also comes with a full width easy to use slider. Easily add a logo to your site and create a beautiful homepage using the built-in homepage layout. Fully compatible with popular page builders and plugins, including WooCommerce and multilingual plugins. It's a perfect theme for a wide range of businesses, from startups to corporations and everything in between.
+Tags: one-column, two-columns, three-columns, right-sidebar, left-sidebar, custom-header, custom-menu, full-width-template, theme-options, threaded-comments, editor-style, featured-images, featured-image-header, post-formats, sticky-post, translation-ready, flexible-header, custom-background, grid-layout, footer-widgets, blog, e-commerce, portfolio, rtl-language-support
+Author: Think Up Themes
+Author URI: https://www.thinkupthemes.com
+Theme URI: https://www.thinkupthemes.com/free/alante/
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+/* Pre Header Style */
+#pre-header {
+  background-color: #d33d33;
+  border-bottom: none;
+}
+#pre-header .header-links li a,
+#pre-header-social li,
+#pre-header-social li a,
+#pre-header-search input {
+  color: #fff;
+}
+#pre-header-social li a,
+#pre-header .header-links .menu-hover > a,
+#pre-header .header-links > ul > li > a:hover {
+  background: transparent;
+}
+#pre-header .header-links .sub-menu a {
+  color: #7a7a7a;
+}
+#pre-header-social li a:hover {
+  background: transparent !important;
+}
+
+/* Header Style */
+#header .menu > li.current_page_item > a,
+#header .menu > li.current-menu-ancestor > a,
+#header .menu > li.menu-hover > a,
+#header .menu > li > a:hover {
+  box-shadow: none;
+}
+#header .header-links .sub-menu {
+  border: none;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Introduction Style */
+#content {
+  background-color: #fff !important;
+}
+#introaction,
+#outroaction {
+  background: #fff;
+  padding: 60px 0px;
+  border-bottom: none;
+}
+.action-shadow {
+  display: none;
+}
+#introaction-core,
+#outroaction-core {
+  background-image: url(./images/cta-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 60px 45px;
+  border: none;
+}
+#introaction-core h3,
+#outroaction-core h3 {
+  color: #fff;
+  font-size: 44px;
+  margin-bottom: 15px;
+}
+.action-text p,
+.attention_text p {
+  color: #fff;
+}
+.action-button h4,
+.attention_button h4 {
+  border-radius: 30px;
+  font-weight: 700;
+}
+.action-button h4:hover,
+.attention_button h4:hover {
+  background-color: #fff;
+  color: #1e1e1e;
+}
+
+/* Featured Style */
+#section-home {
+  background-color: #eee;
+  padding: 45px 0px;
+}
+.services-builder.style1 {
+  border: none;
+  text-align: left;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.services-builder.style1 .iconimage {
+  border-top-left-radius: 50px;
+  border-bottom: 1px solid #d33d33;
+}
+.services-builder.style1 .iconmain {
+  background-color: #fff;
+  border-bottom-right-radius: 50px;
+}
+.services-builder.style1 .iconmain .iconurl a {
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: 700;
+  background-color: #d33d33;
+  padding: 8px 22px;
+  border-radius: 30px;
+  color: #fff;
+}
+.services-builder.style1 .iconmain .iconurl a:hover {
+  color: #fff;
+  background-color: #1e1e1e;
+}
+
+/*Footer Style */
+#footer {
+  background-color: #131313;
+  border: none;
+  padding: 60px 0px;
+}
+#footer .wp-block-heading {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-left: 0px;
+}
+#footer input[type="search"] {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 0px;
+  color: #fff;
+  border: none;
+  box-shadow: none;
+}
+#footer .wp-element-button {
+  border-radius: 30px;
+  background-color: #d33d33;
+  font-weight: 700;
+}
+#footer .wp-element-button:hover {
+  background-color: #fff;
+  color: #1e1e1e;
+}
+#footer .widget li {
+  margin-bottom: 5px;
+}
+#footer .widget_tag_cloud a {
+  border: none;
+  text-transform: capitalize;
+  color: #3a3a3a;
+  background-color: #fff;
+  border-radius: 5px;
+  font-size: 13px !important;
+}
+#footer .widget_tag_cloud a:hover {
+  background-color: #d33d33;
+  color: #fff;
+  opacity: 1;
+}
+
+/* Sub-footer Style */
+#sub-footer {
+  background: #131313;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+/* Page Intro Style */
+#intro.option1 {
+  background-color: #f8f8f8;
+  padding: 40px 0px;
+  text-align: center;
+  border-bottom: none;
+}
+#intro.option1 #intro-core {
+  background: transparent;
+  border: none;
+}
+#intro.option1 .page-title {
+  font-size: 44px;
+  font-weight: 700;
+  color: #1e1e1e;
+  text-align: center;
+}
+
+/* Blog Posts Style */
+#content {
+  background-color: #fff;
+}
+.blog-article {
+  margin: 0px 0px 30px 0px;
+  border-bottom: 1px solid #ddd;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.blog-article .entry-content,
+.blog-article .entry-footer {
+  padding: 0px;
+}
+.blog-article .blog-thumb {
+  margin: 0px 0px 15px 0px;
+}
+.blog-article .blog-title {
+  font-size: 28px;
+  font-weight: 500;
+}
+.blog-article .more-link {
+  text-align: left;
+}
+.blog-article .more-link i {
+  display: none;
+}
+.blog-article .more-link a:hover span {
+  right: 0;
+}
+.blog-article .more-link a {
+  background-color: transparent;
+  color: #d33d33;
+  font-size: 13px;
+  font-weight: 700;
+  border-bottom: 1px solid #eee;
+}
+.blog-article .more-link a:hover span {
+  color: #1e1e1e;
+}
+.blog-article .more-link span,
+.blog-article .more-link a:hover span {
+  background: none;
+  padding: 0px;
+}
+.blog-article .more-link a:hover {
+  background-color: transparent;
+  color: #1e1e1e;
+}
+.navigation.pagination .nav-links a,
+.navigation.pagination .nav-links span {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  border: none;
+  color: #1a1a1a;
+  background-color: #f8f8f8;
+  font-weight: 700;
+}
+
+/* Sidebar Style */
+#sidebar .widget {
+  background-color: #f8f8f8;
+  border: none;
+  border-radius: 0px;
+  padding: 25px;
+}
+#sidebar .wp-block-heading {
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #1e1e1e;
+  font-weight: 600;
+  position: relative;
+  padding-left: 0px;
+  margin-bottom: 20px;
+}
+#sidebar .wp-block-heading:after {
+  position: absolute;
+  width: 30%;
+  height: 1px;
+  background-color: #a8a8a8;
+  right: 0;
+  top: 15px;
+  content: "";
+}
+.widget_search form,
+#sidebar input[type="search"] {
+  box-shadow: none;
+  border: none;
+  padding: 0px;
+}
+#sidebar .wp-block-search__button {
+  background-color: #d33d33;
+  font-weight: 700;
+}
+#sidebar .wp-block-search__button:hover {
+  background-color: #1e1e1e;
+}
+.widget ul {
+  border: none;
+}
+.widget li {
+  margin-bottom: 8px;
+  border: none;
+}
+.widget li:last-child {
+  margin-bottom: 0px;
+}
+.widget li a {
+  font-weight: 600;
+  padding: 0px;
+  color: #1e1e1e;
+}
+.widget li a:hover {
+  color: #d33d33;
+}
+#sidebar .widget_tag_cloud a {
+  text-transform: capitalize;
+  border: none;
+  color: #3a3a3a;
+  background-color: #fff;
+  font-size: 13px !important;
+  border-radius: 5px;
+}
+#sidebar .widget_tag_cloud a:hover {
+  background-color: #d33d33;
+  color: #fff;
+  opacity: 1;
+}
+
+/* Single Post Style */
+#nav-above,
+#nav-below {
+  padding: 30px;
+  background-color: #f8f8f8;
+  border-radius: 0px;
+}
+.nav-next a,
+.nav-previous a {
+  border: none;
+  border-radius: 25px;
+  font-weight: 700;
+  padding: 8px 15px;
+  color: #fff;
+  text-decoration: none !important;
+  background-color: #d33d33;
+}
+.nav-next a:hover,
+.nav-previous a:hover {
+  background-color: #1e1e1e;
+  color: #fff;
+  border-color: #d33d33;
+}
+
+/* Comments & Reply Style */
+#comments-title,
+#reply-title {
+  font-size: 24px;
+  font-weight: 700;
+}
+.themebutton2,
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  font-weight: 700;
+  padding: 12px 20px;
+  border-radius: 25px;
+  transition: all 0.5s;
+}
+.themebutton2:hover,
+button:hover,
+html input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+  background-color: #1e1e1e;
+  color: #fff;
+  opacity: 1;
+}
+#commentform {
+  background-color: #f8f8f8;
+  padding: 30px;
+}
+#commentform input[type="text"],
+#commentform #comment {
+  margin: 0px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: none;
+  padding: 15px;
+}
